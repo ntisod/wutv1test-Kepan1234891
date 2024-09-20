@@ -1,0 +1,48 @@
+
+a {
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 2px;
+    border-style: none;
+    border-radius: 40px;
+    border-color: black;
+
+
+}
+a:hover {
+    color: grey;
+    background-color: lightgray;
+}
+.left-section {
+    float:left;
+    width: 250px;
+    height: 500px;
+    background-color: white;
+    padding: 15px;
+    border-style:solid;
+    border-radius: 5px;
+}
+.left-section a {
+        display: block;
+        margin-bottom: 10px;
+        text-decoration: none;
+        color: black;
+        font-size: 17px;
+    }
+    .paragraph-section {
+        margin-left: 300px;
+    }
+
+h1, h2{
+    text-align: center;
+        
+}
+
+p {
+    color: black;
+    margin-left: 20px;
+     
+}
+
+
+
