@@ -1,0 +1,85 @@
+/* index body*/
+.index-body {
+    font-family: Arial, sans-serif;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    background-color: #433878;
+}
+
+/* text  */
+h1, h2, .paragraph-section, .left-section {
+    position: relative;
+    z-index: 2;
+    font-family: 'Arial', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2.5em;
+    color: #FFE1FF;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+
+.left-section {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 2;
+}
+
+/* knapp */
+.btn {
+    display: inline-block;
+    background-color: #181C14;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #3C3D37;
+}
+
+/* paragraf sektion */
+.paragraph-section {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #000;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* lista */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    color: #2e8b57;
+}
+
+/* Länkar */
+a {
+    color: #2e8b57;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
