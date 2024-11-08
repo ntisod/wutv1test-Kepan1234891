@@ -1,7 +1,28 @@
+
 section {
 
 margin-left: 300px;
 margin-right: 300px;
+
+}
+.Tim {
+margin-left: 80px;
+margin-right: 500px;
+
+}
+.Bild {
+
+float: right;
+margin-top: 50px;
+padding: 10px;
+border: solid #ff1 5px;
+
+
+}
+
+h1 {
+
+text-align: center;
 
 }
 
