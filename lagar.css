@@ -3,6 +3,8 @@ section {
 
 margin-left: 300px;
 margin-right: 300px;
+margin-bottom: 50px;
+margin-top: 50px;
 
 }
 .Tim {
@@ -15,8 +17,27 @@ margin-right: 500px;
 float: right;
 margin-top: 50px;
 padding: 10px;
-border: solid #ff1 5px;
+border: solid 5px;
 
+
+}
+
+nav {
+    justify-content: space-around;
+    padding: 1rem 0;
+    align-items: center;
+    position: relative;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    display: flex;
+    color: #121212;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    
+    transition: background-color 0.3s;
 
 }
 
