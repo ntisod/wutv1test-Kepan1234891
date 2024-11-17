@@ -1,0 +1,17 @@
+@media screen and (max-width: 768px) {
+    body {
+        display: block;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}
+
+/* Media Query för skärmar upp till 480px (mobiler) */
+@media screen and (max-width: 480px) {
+    body {
+        display: block;
+        text-align: center;
+        margin-bottom: 10px;
+
+    }
+}

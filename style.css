@@ -25,7 +25,6 @@ h1 {
 
 .left-section {
     position: fixed;
-    top: 20px;
     left: 20px;
     border-style: solid;
     background-color: rgba(255, 255, 255, 0.9);
@@ -46,10 +45,9 @@ h1 {
     color: #121212;
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding: 10px 20px;
-    text-decoration: none;
+    margin-left: px;
+    padding: 5px;
+    text-decoration: black;
     border-radius: 8px;
     transition: background-color 0.3s;
     
@@ -63,13 +61,19 @@ h1 {
 /* paragraf sektion */
 .paragraph-section {
     max-width: 900px;
-    margin: 40px auto;
-    padding: 20px;
+    margin-left: 30%;
+    margin-right 30%;
+    padding-left: 20px;
+    padding-right: 20px;
+
     background-color: rgba(255, 255, 255, 0.9);
     border-radius: 5px;
     border-style: solid;
     border-color: #121212;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); 
+}
+.s {
+    margin-right: 10%;
 }
 .bild {
 
@@ -114,4 +118,57 @@ hr {
     background-color: #121212;
     border-radius: 100px;
 
+}
+
+@media screen and (max-width: 768px) {
+    .left-section {
+        padding: 15px; 
+        max-width: 75px;
+        text-align: center;
+
+        
+
+    }
+    .btn {
+
+        font-size: 12px; 
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+        margin-right: 5px;
+    }
+    .btn:hover {
+
+        max-width: 100%;
+    }
+    .paragraph-section {
+
+        margin-left: 140px;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .left-section {
+        padding: 15px; 
+        max-width: 75px;
+        text-align: center;
+       
+        
+
+    }
+    .btn {
+
+        font-size: 12px; 
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+        margin-left: ;
+        margin-right: 5px;
+    }
+    .btn:hover {
+
+        max-width: 100%;
+    }
+    .paragraph-section {
+
+        margin-left: 140px;
+        margin-right: 20px;
+    }
 }

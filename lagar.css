@@ -1,8 +1,8 @@
 
 section {
 
-margin-left: 300px;
-margin-right: 300px;
+margin-left: 10%;
+margin-right: 10%;
 margin-bottom: 50px;
 margin-top: 50px;
 
@@ -45,6 +45,55 @@ h1 {
 
 text-align: center;
 
+}
+.knapp {
+border-radius: 20px;
+margin-left: 20px;
+margin-right: 20px;
+
+}
+.knapp:hover {
+background-color:rgba(0, 0, 0, 0.2);
+
+}
+
+@media screen and (max-width: 768px) {
+    section, article{
+
+        margin-right:  10px;
+        margin-left: 10px;
+    }
+    img {
+
+        max-width: 325px;
+        
+    }
+    .Tim {
+        margin-left: 10%;
+        margin-right: 10%;
+
+    }
+}
+
+/* Media Query för skärmar upp till 480px (mobiler) */
+@media screen and (max-width: 480px) {
+
+
+    section, article{
+
+        margin-right:  10px;
+        margin-left: 10px;
+    }
+    img {
+
+        max-width: 325px;
+        
+    }
+    .Tim {
+        margin-left: 10%;
+        margin-right: 10%;
+
+    }
 }
 
 
