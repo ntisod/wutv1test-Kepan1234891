@@ -1,3 +1,4 @@
+/* ipads */
 @media screen and (max-width: 768px) {
     body {
         display: block;
@@ -6,7 +7,7 @@
     }
 }
 
-/* Media Query för skärmar upp till 480px (mobiler) */
+/* mobiler*/
 @media screen and (max-width: 480px) {
     body {
         display: block;
