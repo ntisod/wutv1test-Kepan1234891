@@ -1,0 +1,18 @@
+/* ipads */
+@media screen and (max-width: 768px) {
+    body {
+        display: block;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}
+
+/* mobiler*/
+@media screen and (max-width: 480px) {
+    body {
+        display: block;
+        text-align: center;
+        margin-bottom: 10px;
+
+    }
+}
